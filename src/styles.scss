@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 6px;
+}
+
+.game {
+  border: 1px solid #e6e3e3;
+  display: inline-block;
+  padding: 3px;
+  text-align: center;
+}
+
+.player, .rival {
+  display: flex;
+  justify-content: center;
+}
+
+.type {
+  display: inline-block;
+  margin: 6px;
+  border: 1px solid #f7f7f7;
+  box-sizing: content-box;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f7f7f7;
+  }
+}
